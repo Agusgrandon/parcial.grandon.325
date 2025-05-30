@@ -29,7 +29,6 @@ public class Parcial {
             switch(opcion){
                 case 1:
                     System.out.println("1");
-                    nave1.agregarNaves(nave1);
                     break;
                 case 2:
                     System.out.println("opcion 2");

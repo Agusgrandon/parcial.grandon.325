@@ -23,14 +23,7 @@ public class Naves {
     public int getAnioLanzamiento() {
         return anioLanzamiento;
     }
-    
-    public void agregarNaves(Naves nuevaNave){
-          naves.add(nuevaNave);
-    }
 
-  
 
-    
-    
     
 }
