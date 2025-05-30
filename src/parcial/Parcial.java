@@ -9,6 +9,7 @@ public class Parcial {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        Naves nave1 = new Naves ("alfa", 2, 1998);
         int opcion;
         boolean seguir = true;
         
@@ -24,7 +25,8 @@ public class Parcial {
             
             switch(opcion){
                 case 1:
-                    System.out.println("opcion 1");
+                    System.out.println("1. Agregar nave (Exploración, Carguero o Crucero Estelar)");
+                    nave1.agregarNaves(nave1);
                     break;
                 case 2:
                     System.out.println("opcion 2");
