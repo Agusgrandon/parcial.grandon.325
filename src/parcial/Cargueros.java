@@ -10,6 +10,4 @@ public class Cargueros extends Naves{
         this.capacidadCarga = capacidadCarga;
     }
     
-    
-    
 }
