@@ -15,17 +15,20 @@ public class Parcial {
         
         while(seguir){
             System.out.println("\n======== Menu de opciones ==========");
-            System.out.println("1");
-            System.out.println("2");
-            System.out.println("3");
-            System.out.println("4) Salir");
+            System.out.println("1 Agregar nave (Exploración, Carguero o Crucero Estelar)");
+            System.out.println("2 Mostrar todas las naves registradas.");
+            System.out.println("3 Iniciar misión de exploración");
+            System.out.println("4 Mostrar naves ordenadas por nombre (Comparable)");
+            System.out.println("5 Mostrar naves ordenadas por año de lanzamiento descendente.");
+            System.out.println("6 Mostrar naves ordenadas por capacidad de tripulación descendente.");
+            System.out.println("7 Salir");
             System.out.println("Seleccione una opción: ");
             
             opcion = sc.nextInt(); 
             
             switch(opcion){
                 case 1:
-                    System.out.println("1. Agregar nave (Exploración, Carguero o Crucero Estelar)");
+                    System.out.println("1");
                     nave1.agregarNaves(nave1);
                     break;
                 case 2:
@@ -34,7 +37,7 @@ public class Parcial {
                 case 3:
                     System.out.println("opcion 3");
                     break;
-                case 4:
+                case 7:
                     seguir = false;
                     break;
                 default:
