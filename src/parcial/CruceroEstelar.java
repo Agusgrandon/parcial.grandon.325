@@ -1,7 +1,5 @@
 package parcial;
 
-
-
 public class CruceroEstelar extends Naves{
     
     private int cantidadPasajeros;
