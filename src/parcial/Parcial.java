@@ -25,10 +25,13 @@ public class Parcial {
             switch(opcion){
                 case 1:
                     System.out.println("opcion 1");
+                    break;
                 case 2:
                     System.out.println("opcion 2");
+                    break;
                 case 3:
                     System.out.println("opcion 3");
+                    break;
                 case 4:
                     seguir = false;
                     break;
